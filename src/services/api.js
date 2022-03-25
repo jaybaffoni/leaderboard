@@ -9,7 +9,7 @@ const data = [
     },
     {
         name: 'Kelly',
-        highScore: 12345
+        highScore: 1245
     },
     {
         name: 'Michael',
@@ -25,6 +25,7 @@ const data = [
     }
 ]
 
+
 export const getRankings = () => {
-    return data;
+    return data.sort((a, b) => b.highScore - a.highScore);
 }
