@@ -44,7 +44,7 @@ const Ranking = ({number, data}) => {
       display: 'grid',
       placeItems: 'center',
     },
-  }
+   };
 
   return (
     <div id='parent' style={styles.parent}>
